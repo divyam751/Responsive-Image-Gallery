@@ -16,6 +16,9 @@ li {
   display: flex;
   gap: 5px;
 }
+.hamburger {
+  display: none;
+}
 
 @media only screen and (max-width: 425px) {
   .links {
@@ -31,5 +34,6 @@ li {
   }
   .hamburger {
     height: 100%;
+    display: block;
   }
 }

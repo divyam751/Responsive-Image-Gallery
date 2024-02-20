@@ -1,0 +1,33 @@
+.ImageCardContainer {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cardImage {
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+}
+.cardImage > img {
+  width: 100%;
+}
+.ImageCardContainer:hover {
+  zoom: 102%;
+  transition: ease-in 0.1s;
+}
+.ImageInformation {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  gap: 5px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 0px 0px 20px 20px;
+}

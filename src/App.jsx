@@ -1,12 +1,12 @@
 import "./App.css";
+import Gallery from "./components/Gallery";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="appContainer">
-      <div className="wrapper">
-        <Navbar />
-      </div>
+      <Navbar />
+      <Gallery />
     </div>
   );
 }

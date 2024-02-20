@@ -19,19 +19,20 @@ const Navbar = () => {
       <ul className={`links ${hamburger ? "" : "menu-close"}`}>
         <li>
           <FontAwesomeIcon icon={faHouseChimney} />
-          Home
+          <a href="#"> Home</a>
         </li>
 
         <li>
           <FontAwesomeIcon icon={faImages} />
-          Gallery
+          <a href="#">Gallery</a>
         </li>
         <li>
           <FontAwesomeIcon icon={faEnvelope} />
-          Contact
+          <a href="#"> Contact</a>
         </li>
         <li>
-          <FontAwesomeIcon icon={faCircleInfo} /> About
+          <FontAwesomeIcon icon={faCircleInfo} />
+          <a href="#"> About</a>
         </li>
       </ul>
       <div className="hamburger">
